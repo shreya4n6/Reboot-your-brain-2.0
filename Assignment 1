@@ -11,7 +11,7 @@ Problem #2 :  play with directory
   create a directory with name "-okgoogle"
 
 
-Answer #1: A) mkdir ''$'\n'
+Answer #1: 
 Answer #2: 
-mkdir ""  (directory with no name)
+mkdir ''$'\n'
 mkdir -okgoogle
