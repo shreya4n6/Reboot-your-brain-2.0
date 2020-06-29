@@ -1,0 +1,59 @@
+QUES 1: create a directory structure 
+--->  https://slashreboot.blogspot.com/2020/06/reboot-your-brain-20-linux-basic-tasks.html
+
+Note :   You are only allowed to use a single command and only one time
+
+SOLUTION: mkdir -p A/B A/C A/D B/G B/H C/I C/J D/E D/F G/K H/J I/J J/L F/L E/M K/Reboot.txt J/Reboot.txt L/Reboot.txt M/Reboot.txt
+
+
+QUES 2: share and files and folder 
+
+
+create two users name jack and Jill  from command line
+create all the data under home directory of each users 
+login with jack user and create a file name  jack.txt using vim editor and write "hello jack"
+from jack user also create two directories name jack1 & jack2 
+now login from Jill user and create a file. Jill.txt using vim editor and write "hey jiil"
+from Jill also create two directoires named jill1 & jill2 
+
+Important :  swap these files and directories in between users  and to swap don't use root account.
+
+
+SOLUTION:
+# adduser jack
+# adduser jill
+# vim /etc/group
+
+Now edit the file like this:
+sudo:x:1001:jack
+sudo:x:1002:jill
+
+:wq!
+
+# passwd jack
+set a password for jack
+
+# passwd jill
+set a password for jill
+
+# su - jack
+jack$ mkdir jack1 jack2
+jack$ vim jack.txt
+hello jack
+-
+-
+-
+:wq!
+jack$ su - jill
+password: <here give the required password which you have set using passwd>
+
+jill$ mkdir jill1 jill2
+jill$ vim jill.txt
+hey jill
+-
+-
+-
+:wq!
+
+
+
