@@ -29,6 +29,8 @@ sudo:x:1001:jack
 sudo:x:1002:jill
 
 :wq!
+# usermod -aG sudo jack
+# usermod -aG sudo jill
 
 # passwd jack
 set a password for jack
