@@ -1,0 +1,30 @@
+Problem #5 :  play with files and directories 
+
+1.  create  3 files named   abc.txt  ok  fine  g.txt  /tmp directory 
+2.  create  4  directories   aa aaa aaaa  under  /tmp directory 
+3.  give ls command to  list the content of  /tmp directory 
+4.  make sure it will only list the content (file|directory)  having 2 char in their name.
+ 
+problem #6:  run command without any output 
+
+ 1. open terminal and type any command 
+ 2. once you press enter your output of given command must not  print
+ 3. you are not allowed to redirect output anywhere 
+
+SOLUTIONS:
+
+# SOLUTION OF PROBLEM 5:
+
+cd /tmp
+touch abc.txt ok\ fine g.txt
+mkdir a aa aaa aaaa
+ls -d ??  ( TO LIST FILES AND DIRECTRIES WITH EXACTLY 2 CHARACTERS )
+
+# SOLUTION OF PROBLEM 6
+
+
+
+
+
+
+
