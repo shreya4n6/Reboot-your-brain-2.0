@@ -12,6 +12,8 @@ Problem #2 :  play with directory
 
 
 Answer #1: 
+
+
 Answer #2: 
 mkdir ''$'\n'
-mkdir -okgoogle
+mkdir -- -okgoogle
