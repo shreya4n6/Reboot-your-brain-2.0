@@ -22,6 +22,14 @@ ls -d ??  ( TO LIST FILES AND DIRECTRIES WITH EXACTLY 2 CHARACTERS )
 
 # SOLUTION OF PROBLEM 6
 
+shreya@kali:~$ bash -n   (After typing this is terminal no output will be shown for any command)
+bash-5.0$ date
+bash-5.0$ ls
+bash-5.0$ 
+
+
+
+
 
 
 
