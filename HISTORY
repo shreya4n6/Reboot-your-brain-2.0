@@ -1,0 +1,3 @@
+Problem 5 : to remove particular history from history commands and also its not be tracable
+
+$ history -d $((HISTCMD -1)) && history -d 131
