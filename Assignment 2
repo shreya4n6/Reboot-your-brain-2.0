@@ -3,8 +3,7 @@ QUES 1: create a directory structure
 
 Note :   You are only allowed to use a single command and only one time
 
-SOLUTION: mkdir -p A/B A/C A/D B/G B/H C/I C/J D/E D/F G/K H/J I/J J/L F/L E/M K/Reboot.txt J/Reboot.txt L/Reboot.txt M/Reboot.txt
-
+SOLUTION: $ mkdir -p A/{B/{G/K/N/Reboot.txt,H/J/N/Reboot.txt},C/{I/J/N/Reboot.txt,J/L/N/Reboot.txt},D/{F/L/N/Reboot.txt,E/M/N/Reboot.txt}}
 
 QUES 2: share and files and folder 
 
